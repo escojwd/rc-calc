@@ -1,0 +1,27 @@
+.App {
+  text-align: center;
+  /* align-items: center; */
+  margin: 50px auto;
+}
+
+.numbs-wrap {
+  display: inline-flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 150px;
+}
+
+.actions-wrap {
+  vertical-align: top;
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.clear-btn {
+  width: 100px;
+  border: 0.5px solid rgb(241, 69, 69);
+  background-color: white;
+  font-size: 25px;
+  color: rgb(159, 161, 158);
+}
